@@ -39,7 +39,7 @@ export default {
     }
   },
   mounted () {
-    axios('https://newsapi.org/v2/everything?q=programming&domains=techcrunch.com,techinasia.com&apiKey=86b99521c78b46ad8a1a0a882bfda6e9', {
+    axios('https://newsapi.org/v2/everything?q=programming&domains=techcrunch.com,techinasia.com&apiKey=dffbd29d4b214e6483b8577bebfa4002', {
       crossDomain: true
     }).then( ({ data }) => {
       this.allPost = data.articles
